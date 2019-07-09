@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="MMM-dd,yyyy hh:mm:ss aa"
+        android:format24Hour="@null"
+        />
+
+    <TextView
+        android:id="@+id/goalTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/goalSetEV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/setGoalBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Set calorie goal"/>
+    <TextView
+        android:id="@+id/feedbackTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userReportTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Post Report"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/homeImage"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homeimage"
+        android:adjustViewBounds="true"
+        />
+
+
+</LinearLayout>

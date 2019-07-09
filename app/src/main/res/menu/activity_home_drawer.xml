@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24px"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_daily_diet"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Daily Diet" />
+        <item
+            android:id="@+id/nav_steps"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="Steps" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_go_to_map"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="To Map" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+
+    </group>
+</menu>
